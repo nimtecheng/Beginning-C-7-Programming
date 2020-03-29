@@ -1,0 +1,6 @@
+C:\Users\12457\Desktop\c#\exercise\Ch11Ex02\Ch11Ex02\bin\Debug\Ch11Ex02.exe.config
+C:\Users\12457\Desktop\c#\exercise\Ch11Ex02\Ch11Ex02\bin\Debug\Ch11Ex02.exe
+C:\Users\12457\Desktop\c#\exercise\Ch11Ex02\Ch11Ex02\bin\Debug\Ch11Ex02.pdb
+C:\Users\12457\Desktop\c#\exercise\Ch11Ex02\Ch11Ex02\obj\Debug\Ch11Ex02.csprojAssemblyReference.cache
+C:\Users\12457\Desktop\c#\exercise\Ch11Ex02\Ch11Ex02\obj\Debug\Ch11Ex02.exe
+C:\Users\12457\Desktop\c#\exercise\Ch11Ex02\Ch11Ex02\obj\Debug\Ch11Ex02.pdb
