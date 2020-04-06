@@ -18,8 +18,8 @@
         <Label Content="Options" Canvas.Right="10" Canvas.Top="13" Foreground="#FFF7EFEF" FontFamily="Times New Roman" FontSize="24" FontWeight="Bold"/>
     </Canvas>
 
-
-        <TabControl  Grid.Row="1" Grid.RowSpan="2" Width="408" Height="208">
+       
+        <TabControl  Grid.Row="1" Grid.RowSpan="2" Width="408" Height="208" >
             <TabItem Header="Game">
                 <Grid>
                     <CheckBox Content="Play against computer" HorizontalAlignment="Left" Margin="11,33,0,0" VerticalAlignment="Top" Name="playAgainstComputerCheck"/>
