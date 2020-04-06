@@ -1,0 +1,31 @@
+﻿<Window x:Class="Ch14Ex01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ch14Ex01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" KeyDown="Window_KeyDown" PreviewKeyDown="Window_PreviewKeyDown">
+    <Grid KeyDown="Grid_KeyDown" PreviewKeyDown="Grid_PreviewKeyDown" Margin="0,0,-0.4,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="52*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="197*"/>
+            <ColumnDefinition Width="200*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="rotatedButton" Content="2nd Button" Height="22" Width="75" RenderTransformOrigin="0.5,0.5" FontWeight="Bold"  KeyDown="rotatedButton_KeyDown" PreviewKeyDown="rotatedButton_PreviewKeyDown" Grid.Row="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-40.695"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="152,108,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.759,-0.473"/>
+        <GridSplitter  Grid.RowSpan="2" Width="3" BorderThickness="2" BorderBrush="Black"/>
+    </Grid>
+</Window>

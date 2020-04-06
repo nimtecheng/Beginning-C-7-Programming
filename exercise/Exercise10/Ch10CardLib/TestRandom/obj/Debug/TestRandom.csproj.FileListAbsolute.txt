@@ -1,0 +1,7 @@
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\TestRandom\bin\Debug\TestRandom.exe.config
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\TestRandom\bin\Debug\TestRandom.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\TestRandom\bin\Debug\TestRandom.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\TestRandom\obj\Debug\TestRandom.csproj.CoreCompileInputs.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\TestRandom\obj\Debug\TestRandom.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\TestRandom\obj\Debug\TestRandom.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\TestRandom\obj\Debug\TestRandom.csprojAssemblyReference.cache

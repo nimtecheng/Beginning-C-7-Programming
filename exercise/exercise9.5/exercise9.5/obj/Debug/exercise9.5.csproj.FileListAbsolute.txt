@@ -1,0 +1,10 @@
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\exercise9.5\exercise9.5\bin\Debug\exercise9.5.exe.config
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\exercise9.5\exercise9.5\bin\Debug\exercise9.5.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\exercise9.5\exercise9.5\bin\Debug\exercise9.5.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\exercise9.5\exercise9.5\bin\Debug\exercise9.4.dll
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\exercise9.5\exercise9.5\bin\Debug\exercise9.4.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\exercise9.5\exercise9.5\obj\Debug\exercise9.5.csprojAssemblyReference.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\exercise9.5\exercise9.5\obj\Debug\exercise9.5.csproj.CoreCompileInputs.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\exercise9.5\exercise9.5\obj\Debug\exercise9.5.csproj.CopyComplete
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\exercise9.5\exercise9.5\obj\Debug\exercise9.5.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\exercise9.5\exercise9.5\obj\Debug\exercise9.5.pdb

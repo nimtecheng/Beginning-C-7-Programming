@@ -1,0 +1,10 @@
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardClient\bin\Debug\Ch10CardClient.exe.config
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardClient\bin\Debug\Ch10CardClient.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardClient\bin\Debug\Ch10CardClient.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardClient\obj\Debug\Ch10CardClient.csprojAssemblyReference.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardClient\obj\Debug\Ch10CardClient.csproj.CoreCompileInputs.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardClient\obj\Debug\Ch10CardClient.csproj.CopyComplete
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardClient\obj\Debug\Ch10CardClient.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardClient\obj\Debug\Ch10CardClient.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardClient\bin\Debug\Ch11CardLib.dll
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardClient\bin\Debug\Ch11CardLib.pdb

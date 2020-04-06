@@ -1,0 +1,10 @@
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Exercise_flush\bin\Debug\Exercise_flush.exe.config
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Exercise_flush\bin\Debug\Exercise_flush.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Exercise_flush\bin\Debug\Exercise_flush.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Exercise_flush\bin\Debug\Ch10CardLib.dll
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Exercise_flush\bin\Debug\Ch10CardLib.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Exercise_flush\obj\Debug\Exercise_flush.csprojAssemblyReference.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Exercise_flush\obj\Debug\Exercise_flush.csproj.CoreCompileInputs.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Exercise_flush\obj\Debug\Exercise_flush.csproj.CopyComplete
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Exercise_flush\obj\Debug\Exercise_flush.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Exercise_flush\obj\Debug\Exercise_flush.pdb

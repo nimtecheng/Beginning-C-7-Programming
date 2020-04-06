@@ -1,0 +1,15 @@
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\obj\Debug\test_DockPanel.csprojAssemblyReference.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\obj\Debug\MainWindow.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\obj\Debug\App.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\obj\Debug\test_DockPanel_MarkupCompile.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\obj\Debug\test_DockPanel_MarkupCompile.lref
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\bin\Debug\test_DockPanel.exe.config
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\bin\Debug\test_DockPanel.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\bin\Debug\test_DockPanel.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\obj\Debug\MainWindow.baml
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\obj\Debug\test_DockPanel.g.resources
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\obj\Debug\test_DockPanel.Properties.Resources.resources
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\obj\Debug\test_DockPanel.csproj.GenerateResource.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\obj\Debug\test_DockPanel.csproj.CoreCompileInputs.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\obj\Debug\test_DockPanel.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise14\Ch14Ex02\test_DockPanel\test_DockPanel\obj\Debug\test_DockPanel.pdb

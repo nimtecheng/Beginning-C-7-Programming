@@ -1,0 +1,6 @@
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardLib\bin\Debug\Ch10CardLib.dll
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardLib\bin\Debug\Ch10CardLib.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardLib\obj\Debug\Ch10CardLib.csprojAssemblyReference.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardLib\obj\Debug\Ch10CardLib.csproj.CoreCompileInputs.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardLib\obj\Debug\Ch10CardLib.dll
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise10\Ch10CardLib\Ch10CardLib\obj\Debug\Ch10CardLib.pdb

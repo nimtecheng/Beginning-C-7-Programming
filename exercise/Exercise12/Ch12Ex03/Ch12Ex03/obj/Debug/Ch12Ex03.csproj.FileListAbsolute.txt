@@ -1,0 +1,7 @@
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise12\Ch12Ex03\Ch12Ex03\bin\Debug\Ch12Ex03.exe.config
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise12\Ch12Ex03\Ch12Ex03\bin\Debug\Ch12Ex03.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise12\Ch12Ex03\Ch12Ex03\bin\Debug\Ch12Ex03.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise12\Ch12Ex03\Ch12Ex03\obj\Debug\Ch12Ex03.csprojAssemblyReference.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise12\Ch12Ex03\Ch12Ex03\obj\Debug\Ch12Ex03.csproj.CoreCompileInputs.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise12\Ch12Ex03\Ch12Ex03\obj\Debug\Ch12Ex03.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise12\Ch12Ex03\Ch12Ex03\obj\Debug\Ch12Ex03.pdb
