@@ -43,7 +43,7 @@ namespace KarliCards.Gui
                 gameOptions = new GameOptions();
         }
 
-
+                DataContext = gameOptions;
                 InitializeComponent();
         }
 
@@ -77,6 +77,8 @@ namespace KarliCards.Gui
             gameOptions = null;
             Close();
         }
+
+
     }
     
 }
