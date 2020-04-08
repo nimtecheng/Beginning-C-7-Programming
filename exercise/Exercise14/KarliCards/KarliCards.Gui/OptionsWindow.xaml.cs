@@ -15,6 +15,7 @@ using System.IO;
 using System.Xml.Serialization;
 
 
+
 namespace KarliCards.Gui
 {
     /// <summary>
@@ -24,6 +25,7 @@ namespace KarliCards.Gui
     public partial class OptionsWindow : Window
     {
         private GameOptions gameOptions;
+        
         public OptionsWindow()
         {
             if (gameOptions == null)
