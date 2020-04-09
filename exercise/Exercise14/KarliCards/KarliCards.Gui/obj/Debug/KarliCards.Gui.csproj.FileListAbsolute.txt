@@ -54,3 +54,5 @@ C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\B
 C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\KarliCards.Gui.exe
 C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\KarliCards.Gui.pdb
 C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\StartGameWindow.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\StartGameWindow.baml

@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
+using System.Xml.Serialization;
 
 namespace KarliCards.Gui
 {
@@ -19,9 +21,67 @@ namespace KarliCards.Gui
     /// </summary>
     public partial class StartGameWindow : Window
     {
+        private GameOptions gameOptions;
         public StartGameWindow()
         {
+            if (gameOptions == null)
+            {
+
+                if (File.Exists("GameOptions.xml"))
+                {
+                    using (var stream = File.OpenRead("GameOptions.xml"))
+                    {
+                        var serializer = new XmlSerializer(typeof(GameOptions));
+                        gameOptions = serializer.Deserialize(stream) as GameOptions;
+                    }
+                }
+
+
+                else
+                    gameOptions = new GameOptions();
+            }
+
+            DataContext = gameOptions;
             InitializeComponent();
+            if (gameOptions.PlayAgainstComputer)
+                playerNamesListBox.SelectionMode = SelectionMode.Single;
+            else
+                playerNamesListBox.SelectionMode = SelectionMode.Extended;
         }
+
+        private void PlayerNamesListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+            if (gameOptions.PlayAgainstComputer)
+                okButton.IsEnabled = (playerNamesListBox.SelectedItems.Count == 1);
+            else
+                okButton.IsEnabled = (playerNamesListBox.SelectedItems.Count == gameOptions.NumberOfplayers);
+        }
+
+        private void AddNewPlayerButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(newPlayerTextBox.Text))
+                gameOptions.AddPlayer(newPlayerTextBox.Text);
+            newPlayerTextBox.Text = string.Empty;
+        }
+
+        private void OkButton_Click(object sender, RoutedEventArgs e)
+        {
+            foreach (string item in playerNamesListBox.SelectedItems)
+            { gameOptions.SelectedPlayers.Add(item); }
+            using (var stream = File.Open("GameOptions.xml", FileMode.Create))
+            {
+                var serializer = new XmlSerializer(typeof(GameOptions));
+                serializer.Serialize(stream, gameOptions);
+            }
+            Close();
+        }
+
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            gameOptions = null;
+            Close();
+        }
+
     }
 }
