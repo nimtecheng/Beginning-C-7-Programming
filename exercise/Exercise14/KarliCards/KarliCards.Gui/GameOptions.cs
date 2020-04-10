@@ -33,40 +33,41 @@ namespace KarliCards.Gui
         }
     
  
-    private bool playAgainstComputer = true;
-    private int numberOfplayers = 2;
-    private ComputerSkillLevel computerSkill = ComputerSkillLevel.Dumb;
-    public bool PlayAgainst { get; set; }
-    public int NumberOfplayers
-        {
-            get { return numberOfplayers; }
+        private bool playAgainstComputer = true;
+        private int numberOfplayers = 2;
+        private ComputerSkillLevel computerSkill = ComputerSkillLevel.Dumb;        
+        public int NumberOfplayers
+            {
+                get { return numberOfplayers; }
 
-            set { numberOfplayers = value;OnPropertyChanged(nameof(NumberOfplayers)); }
-        }
-    public bool PlayAgainstComputer
+                set { numberOfplayers = value;OnPropertyChanged(nameof(NumberOfplayers)); }
+            }
+        public bool PlayAgainstComputer
         {
             get { return playAgainstComputer; }
-            set { playAgainstComputer = value;
+            set
+            {
+                playAgainstComputer = value;
                 OnPropertyChanged(nameof(PlayAgainstComputer));
             }
         }
-    public ComputerSkillLevel ComputerSkill
-        {
-            get { return computerSkill; }
-            set
+        public ComputerSkillLevel ComputerSkill
             {
-                computerSkill = value;
-                OnPropertyChanged(nameof(ComputerSkill));
+                get { return computerSkill; }
+                set
+                {
+                    computerSkill = value;
+                    OnPropertyChanged(nameof(ComputerSkill));
 
+                }
             }
-        }
-    public int MinutesBeforeLoss { get; set; }
+        public int MinutesBeforeLoss { get; set; }
   
-    public event PropertyChangedEventHandler PropertyChanged;
-    private void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void OnPropertyChanged(string propertyName)
+            {
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            }
     }
 
   

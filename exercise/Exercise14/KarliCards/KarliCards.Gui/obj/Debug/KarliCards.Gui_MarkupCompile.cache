@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\App.xaml
-41762387959
+6-24257300
 
-10936776621
+11-1310790260
 13-1505183044
-AboutWindow.xaml;MainWindow.xaml;OptionsWindow.xaml;StartGameWindow.xaml;
+AboutWindow.xaml;ControlResources.xaml;GameClientWindow.xaml;MainWindow.xaml;OptionsWindow.xaml;StartGameWindow.xaml;
 
-False
+True
 
