@@ -55,13 +55,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CardControl.xaml.cs">
+      <DependentUpon>CardControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GameClientWindow.xaml.cs">
       <DependentUpon>GameClientWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RankNameConverter.cs" />
     <Compile Include="StartGameWindow.xaml.cs">
       <DependentUpon>StartGameWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="AboutWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CardControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -135,6 +143,12 @@
     <Resource Include="Images\Diamonds.png" />
     <Resource Include="Images\Hearts.png" />
     <Resource Include="Images\Spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Exercise13\Ch13CardLib\Ch13CardLib\Ch13CardLib.csproj">
+      <Project>{6e497f82-9794-4b40-9890-7e3c5d30b7b9}</Project>
+      <Name>Ch13CardLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
