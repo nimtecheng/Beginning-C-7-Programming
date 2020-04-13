@@ -10,7 +10,7 @@ namespace KarliCards.Gui
 {
     [ValueConversion(typeof(Ch13CardLib.Rank),typeof(string))]
   public  class RankNameConverter:IValueConverter
-    {
+  {
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             int source = (int)value;
@@ -29,5 +29,7 @@ namespace KarliCards.Gui
             else
                 return source.ToString();
         }
-    }
+        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        { return DependencyProperty.UnsetValue; }
+  }
 }

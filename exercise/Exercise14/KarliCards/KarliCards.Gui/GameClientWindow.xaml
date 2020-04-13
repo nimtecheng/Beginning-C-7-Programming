@@ -14,7 +14,7 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
-    <Grid>
+    <Grid Background="Green">
         <Grid.RowDefinitions>
             <RowDefinition Height="58"/>
             <RowDefinition Height="20"/>
@@ -22,5 +22,6 @@
             <RowDefinition Height="42"/>
         </Grid.RowDefinitions>
         <Label Grid.Row="0" Style="{StaticResource  HeaderLabelStyle}">Karli Cards</Label>
+        <Grid x:Name="ContentGrid" Grid.Row="2"/>
     </Grid>
 </Window>

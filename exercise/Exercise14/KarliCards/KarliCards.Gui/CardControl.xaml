@@ -14,16 +14,16 @@
         <Style TargetType="Image" x:Key="SuitImage">
             <Style.Triggers>
                 <DataTrigger Binding="{Binding ElementName=UserControl,Path=Suit}" Value="Club">
-                    <Setter Property="Source" Value="Image\Clubs.png"/>
+                    <Setter Property="Source" Value="Images\Clubs.png"/>
                 </DataTrigger>
                 <DataTrigger Binding="{Binding ElementName=UserControl,Path=Suit}" Value="Heart">
-                    <Setter Property="Source" Value="Image\Hearts.png"/>
+                    <Setter Property="Source" Value="Images\Hearts.png"/>
                 </DataTrigger>
                 <DataTrigger Binding="{Binding ElementName=UserControl,Path=Suit}" Value="Diamond">
-                    <Setter Property="Source" Value="Image\Diamonds.png"/>
+                    <Setter Property="Source" Value="Images\Diamonds.png"/>
                 </DataTrigger>
                 <DataTrigger Binding="{Binding ElementName=UserControl,Path=Suit}" Value="Spade">
-                    <Setter Property="Source" Value="Image\Spades.png"/>
+                    <Setter Property="Source" Value="Images\Spades.png"/>
                 </DataTrigger>
             </Style.Triggers>
         </Style>
@@ -49,5 +49,32 @@
                 </LinearGradientBrush>
             </Path.OpacityMask>
         </Path>
-        </Grid>
+        <Label x:Name="SuitLabel" Content="{Binding Path=Suit,ElementName=UserControl,Mode=Default}"
+               ContentTemplate="{DynamicResource SuitTemplate}" HorizontalAlignment="Center"
+               Margin="8,51,8,60"/>
+        <Label x:Name="RankLabel" Grid.ZIndex="1"  Content="{Binding Path=Rank,ElementName=UserControl,Mode=Default,
+            Converter={StaticResource ResourceKey=rankConverter}}"
+               ContentTemplate="{DynamicResource SuitTemplate}"
+               HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,8,0,0"/>
+        <Label x:Name="RankLabelInverted" Content="{Binding Path=Rank,ElementName=UserControl,Mode=Default}"
+               ContentTemplate="{DynamicResource SuitTemplate}" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+               Margin="0,0,8,8" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <RotateTransform Angle="180"/>
+            </Label.RenderTransform>
+        </Label>
+        <Image Name="TopRightImage" Style="{StaticResource ResourceKey=SuitImage}"
+               Margin="12,12,8,0" HorizontalAlignment="Right" VerticalAlignment="Top"
+               Width="18.5" Height="18.5" Stretch="UniformToFill"
+               RenderTransformOrigin="0.5,0.5"/>
+        <Image Name="BottomLeftImage" Style="{StaticResource ResourceKey=SuitImage}"
+               Margin="12,0,8,12" HorizontalAlignment="Left" VerticalAlignment="Bottom"
+               Width="18.5" Height="18.5" Stretch="UniformToFill"
+               RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                <RotateTransform Angle="180"/>
+            </Image.RenderTransform>
+        </Image>
+        
+    </Grid>
 </UserControl>
