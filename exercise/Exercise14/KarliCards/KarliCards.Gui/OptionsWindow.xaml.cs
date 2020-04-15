@@ -13,10 +13,11 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
 using System.Xml.Serialization;
+using Ch13CardLib;
 
 
 
-namespace KarliCards.Gui
+namespace KarliCards
 {
     /// <summary>
     /// Interaction logic for OptionsWindow.xaml

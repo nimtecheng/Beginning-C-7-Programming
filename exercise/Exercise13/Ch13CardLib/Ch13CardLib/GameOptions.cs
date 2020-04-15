@@ -7,7 +7,8 @@ using System.ComponentModel;
 using System.Xml.Serialization;
 using System.Collections.ObjectModel;
 
-namespace KarliCards.Gui
+
+namespace Ch13CardLib
 {
     [Serializable]
     public class GameOptions
