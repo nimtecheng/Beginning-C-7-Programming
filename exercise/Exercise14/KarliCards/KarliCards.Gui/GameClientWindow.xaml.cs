@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Input;
 
 namespace KarliCards.Gui
 {
@@ -22,6 +23,7 @@ namespace KarliCards.Gui
         public GameClientWindow()
         {
             InitializeComponent();
+            /*  
             var position = new Point(15, 15);
             for(var i=0;i<4;i++)
             {
@@ -38,6 +40,21 @@ namespace KarliCards.Gui
                 }
                 position.X += 112;
             }
+        */
+        }
+        private void CommandCanExecute(object sender, CanExecuteRoutedEventArgs e)
+        {
+            if (e.Command == ApplicationCommands.Close)
+                e.CanExecute = true;
+            if (e.Command == ApplicationCommands.Save)
+                e.CanExecute = false;
+            e.Handled = true;
+        }
+        private void CommandExecuted(object sender, ExecutedRoutedEventArgs e)
+        {
+            if (e.Command == ApplicationCommands.Close)
+                this.Close();
+            e.Handled = true;
         }
     }
 }
