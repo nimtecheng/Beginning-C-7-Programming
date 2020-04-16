@@ -17,7 +17,7 @@ using Ch13CardLib;
 
 
 
-namespace KarliCards
+namespace KarliCards.Gui
 {
     /// <summary>
     /// Interaction logic for OptionsWindow.xaml
@@ -29,6 +29,7 @@ namespace KarliCards
         
         public OptionsWindow()
         {
+            /*
             if (gameOptions == null)
             {
 
@@ -45,7 +46,8 @@ namespace KarliCards
             else
                 gameOptions = new GameOptions();
             }
-
+            */
+                gameOptions = GameOptions.Create();
                 DataContext = gameOptions;
                 InitializeComponent();
         }
@@ -67,12 +69,17 @@ namespace KarliCards
 
         private void OkButton_Click(object sender, RoutedEventArgs e)
         {
+            DialogResult = true;
+            gameOptions.Save();
+            Close();
+            /*
             using (var stream = File.Open("GameOptions.xml", FileMode.Create))
             {
                 var serializer = new XmlSerializer(typeof(GameOptions));
                 serializer.Serialize(stream, gameOptions);
             }
             Close();
+            */
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)

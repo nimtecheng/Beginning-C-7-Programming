@@ -46,8 +46,8 @@
     <Compile Include="Card.cs" />
     <Compile Include="CardEventArgs.cs" />
     <Compile Include="Cards.cs" />
+    <Compile Include="ComputerPlayer.cs" />
     <Compile Include="Deck.cs" />
-    <Compile Include="GameOptions.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerEventArgs.cs" />
     <Compile Include="PlayerState.cs" />

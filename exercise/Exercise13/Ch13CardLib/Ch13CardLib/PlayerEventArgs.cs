@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ch13CardLib
 {
-    class PlayerEventArgs : EventArgs
+   public class PlayerEventArgs : EventArgs
     {
         public Player Player { get; set; }
         public PlayerState State {get;set;}

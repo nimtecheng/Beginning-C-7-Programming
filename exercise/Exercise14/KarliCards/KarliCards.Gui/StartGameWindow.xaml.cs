@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
 using System.Xml.Serialization;
+using Ch13CardLib;
 
 
 namespace KarliCards.Gui
@@ -25,6 +26,7 @@ namespace KarliCards.Gui
         private GameOptions gameOptions;
         public StartGameWindow()
         {
+            /*
             if (gameOptions == null)
             {
 
@@ -41,13 +43,23 @@ namespace KarliCards.Gui
                 else
                     gameOptions = new GameOptions();
             }
+            
 
             DataContext = gameOptions;
+            */
             InitializeComponent();
+
+            DataContextChanged += StartGame_DataContextChanged;
+            
+           
+        }
+        private void ChangeListBoxOptions()
+        {
             if (gameOptions.PlayAgainstComputer)
                 playerNamesListBox.SelectionMode = SelectionMode.Single;
             else
                 playerNamesListBox.SelectionMode = SelectionMode.Extended;
+
         }
 
         private void PlayerNamesListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -68,20 +80,31 @@ namespace KarliCards.Gui
 
         private void OkButton_Click(object sender, RoutedEventArgs e)
         {
+            var gameOptions = DataContext as GameOptions;
+            gameOptions.SelectedPlayers = new List<string>();
             foreach (string item in playerNamesListBox.SelectedItems)
             { gameOptions.SelectedPlayers.Add(item); }
+            /*
             using (var stream = File.Open("GameOptions.xml", FileMode.Create))
             {
                 var serializer = new XmlSerializer(typeof(GameOptions));
                 serializer.Serialize(stream, gameOptions);
             }
-            Close();
+            */
+            this.DialogResult = true;
+            this.Close();
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
             gameOptions = null;
             Close();
+        }
+        void StartGame_DataContextChanged(object sender,DependencyPropertyChangedEventArgs e)
+        {
+            gameOptions = DataContext as GameOptions;
+            ChangeListBoxOptions();
+            
         }
 
     }
