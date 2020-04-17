@@ -9,7 +9,7 @@ using Ch13CardLib;
 
 namespace KarliCards.Gui
 {
-    class GameViewModel:INotifyPropertyChanged
+   public class GameViewModel:INotifyPropertyChanged
     {
         private GameOptions gameOptions;
         public event PropertyChangedEventHandler PropertyChanged;
@@ -80,7 +80,21 @@ namespace KarliCards.Gui
             if (gameOptions.SelectedPlayers.Count < 1 ||
                 (gameOptions.SelectedPlayers.Count == 1 && !gameOptions.PlayAgainstComputer))
                 return;
-            
+            CreateGameDeck();
+            CreatePlayers();
+            InitializeGame();
+            GameStarted = true;
+        }
+        private void InitializeGame()
+        {
+            AssignCurrentPlayer(0);
+            CurrentAvailableCard = GameDeck.Draw();
+        }
+        private void AssignCurrentPlayer(int index)
+        {
+            CurrentPlayer = Players[index];
+            if (!Players.Any(x => x.State == PlayerState.Winner))
+                Players.ForEach(x => x.State = (x == Players[index] ? PlayerState.Active : PlayerState.Inactive));
         }
         private void CreateGameDeck()
         {
@@ -92,17 +106,40 @@ namespace KarliCards.Gui
             Players.Clear();
             for(var i=0;i<gameOptions.NumberOfplayers;i++)
             {
-                if(i<gameOptions.SelectedPlayers.Count)
-                    Initial
+                if (i < gameOptions.SelectedPlayers.Count)
+                    InitializePlayer(new Player { Index = i, PlayerName = gameOptions.SelectedPlayers[i] });
+                else
+                    InitializePlayer(new ComputerPlayer { Index = i, Skill = gameOptions.ComputerSkill });
+                        
             }
         }
-        private InitializePlayer(Player player)
+        private void InitializePlayer(Player player)
         {
             player.DrawNewHand(GameDeck);
-            player.OnCardDiscarded += player_OnCardDiscard;
+            player.OnCardDiscarded += player_OnCardDiscarded;
+            player.OnPlayerHasWon += player_OnPlayerHasWon;
+            Players.Add(player);
 
         }
+        void player_OnPlayerHasWon(object sender,PlayerEventArgs e)
+        {
+            Players.ForEach(x => x.State = (x == e.Player ? PlayerState.Winner : PlayerState.Loser));
 
+        }
+        void player_OnCardDiscarded(object sender,CardEventArgs e)
+        {
+            CurrentAvailableCard = e.Card;
+            var nextIndex = CurrentPlayer.Index + 1 >= gameOptions.NumberOfplayers ? 0 : CurrentPlayer.Index + 1;
+            if(GameDeck.CardsInDeck==0)
+            {
+                var cardsInPlay = new List<Card>();
+                foreach (var player in Players)
+                    cardsInPlay.AddRange(player.GetCards());
+                cardsInPlay.Add(CurrentAvailableCard);
+                GameDeck.ReshuffleDiscarded(cardsInPlay);
+            }
+            AssignCurrentPlayer(nextIndex);
+        }
     }
    
 }
