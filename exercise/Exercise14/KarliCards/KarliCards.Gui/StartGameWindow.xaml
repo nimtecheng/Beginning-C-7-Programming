@@ -23,7 +23,7 @@
                  ItemsSource="{Binding Path=PlayerNames}" SelectionChanged="PlayerNamesListBox_SelectionChanged"/>
         <Label Content="New Player" Margin="300,20,0,0"/>
         <TextBox Name="newPlayerTextBox" Height="20" Width="120" Margin="300,50,0,0"/>
-            <Button Name="addNewPlayerButton" Content="Add" Margin="387,80,0,0" Height="20" Width="30" IsEnabled="False" Click="AddNewPlayerButton_Click"/>
+            <Button Name="addNewPlayerButton" Content="Add" Margin="387,80,0,0" Height="20" Width="30" IsEnabled="True" Click="AddNewPlayerButton_Click"/>
         </Canvas>
         <StackPanel Grid.Row="3"  Orientation="Horizontal" FlowDirection="RightToLeft">
             <Button Content="_Cancel" Height="22" Width="75" Margin="10,0,0,0" Name="cancelButton" Click="CancelButton_Click"/>

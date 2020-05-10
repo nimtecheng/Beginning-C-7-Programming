@@ -50,7 +50,7 @@ namespace KarliCards.Gui
 
         // Using a DependencyProperty as the backing store for Game.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty GameProperty =
-            DependencyProperty.Register("Game", typeof(GameViewModel), typeof(CardsInHandControl), new PropertyMetadata(null));
+            DependencyProperty.Register("Game", typeof(GameViewModel), typeof(CardsInHandControl), new PropertyMetadata(null,new PropertyChangedCallback(OnOwnerChanged)));
 
 
 
@@ -156,15 +156,7 @@ namespace KarliCards.Gui
                 new SolidColorBrush(Colors.Gold) :
                 new SolidColorBrush(Colors.White);
         }
-        private void cardControl_MouseDoubleClick(object sender,MouseButtonEventArgs e)
-        {
-            var selectedCard = sender as CardControl;
-            if (Owner == null)
-                return;
-            if (Owner.State == PlayerState.MustDiscard)
-                Owner.DiscardCard(selectedCard.Card);
-            RedrawCards();
-        }
+
         private class Payload
         {
             public Deck Deck { get; set; }
@@ -185,6 +177,15 @@ namespace KarliCards.Gui
             var data = payload as Payload;
             Dispatcher.Invoke(DispatcherPriority.Normal,
                 new Action<Deck>(data.Player.PerformDiscard), data.Deck);
+        }
+        private void cardControl_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            var selectedCard = sender as CardControl;
+            if (Owner == null)
+                return;
+            if (Owner.State == PlayerState.MustDiscard)
+                Owner.DiscardCard(selectedCard.Card);
+            RedrawCards();
         }
     }
 }

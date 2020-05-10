@@ -48,7 +48,7 @@ namespace Ch13CardLib
         {
             Hand.Remove(card);
             if (HasWon)
-                OnPlayerHasWon?.Invoke(this, new PlayerEventArgs { Player = this, State = PlayerState.Winner });
+            OnPlayerHasWon?.Invoke(this, new PlayerEventArgs { Player = this, State = PlayerState.Winner });
             OnCardDiscarded?.Invoke(this, new CardEventArgs { Card = card });
         }
         public void DrawNewHand(Deck deck)

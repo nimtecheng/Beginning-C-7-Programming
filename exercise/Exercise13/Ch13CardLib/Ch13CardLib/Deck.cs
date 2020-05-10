@@ -93,7 +93,7 @@ namespace Ch13CardLib
                     cards.Add(new Card((Suit)suitVal, (Rank)rankVal));
                 }
         }
-        private void InsertAllCards(List<Card>except)
+        private void InsertAllCards(List<Card> except)
         {
             for (int suitVal = 0; suitVal < 4; suitVal++)
                 for (int rankVal = 1; rankVal < 14; rankVal++)

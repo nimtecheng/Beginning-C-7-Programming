@@ -9,7 +9,9 @@ using System.Collections;
 namespace Ch13CardLib
 {
     public class Cards : List<Card>, ICloneable
-    {/*原继承collection base
+
+    {
+        /*原继承collection base
         public void Add(Card newCard) => List.Add(newCard);
         public void Remove(Card oldCard) => List.Remove(oldCard);
         public Card this[int cardIndex]
