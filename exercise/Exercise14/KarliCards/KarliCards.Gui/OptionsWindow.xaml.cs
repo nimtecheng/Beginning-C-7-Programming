@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
 using System.Xml.Serialization;
+using Ch13CardLib;
 
 
 
@@ -28,6 +29,7 @@ namespace KarliCards.Gui
         
         public OptionsWindow()
         {
+            /*
             if (gameOptions == null)
             {
 
@@ -44,7 +46,8 @@ namespace KarliCards.Gui
             else
                 gameOptions = new GameOptions();
             }
-
+            */
+                gameOptions = GameOptions.Create();
                 DataContext = gameOptions;
                 InitializeComponent();
         }
@@ -66,12 +69,17 @@ namespace KarliCards.Gui
 
         private void OkButton_Click(object sender, RoutedEventArgs e)
         {
+            DialogResult = true;
+            gameOptions.Save();
+            Close();
+            /*
             using (var stream = File.Open("GameOptions.xml", FileMode.Create))
             {
                 var serializer = new XmlSerializer(typeof(GameOptions));
                 serializer.Serialize(stream, gameOptions);
             }
             Close();
+            */
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)

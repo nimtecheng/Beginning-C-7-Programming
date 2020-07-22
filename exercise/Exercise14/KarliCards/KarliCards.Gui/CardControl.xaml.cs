@@ -20,9 +20,75 @@ namespace KarliCards.Gui
     /// </summary>
     public partial class CardControl : UserControl
     {
-        public CardControl()
+ 
+
+        public Ch13CardLib.Suit Suit
+        {
+            get { return (Ch13CardLib.Suit)GetValue(SuitProperty); }
+            set { SetValue(SuitProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for MyProperty.  This enables animation, styling, binding, etc...
+        public static  DependencyProperty SuitProperty =
+            DependencyProperty.Register("Suit", typeof(Ch13CardLib.Suit), typeof(CardControl), new PropertyMetadata(Ch13CardLib.Suit.Club,
+                new PropertyChangedCallback(OnSuitChanged)));
+
+
+        public Ch13CardLib.Rank Rank
+        {
+            get { return (Ch13CardLib.Rank)GetValue(RankProperty); }
+            set { SetValue(RankProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for MyProperty.  This enables animation, styling, binding, etc...
+        public static  DependencyProperty RankProperty =
+            DependencyProperty.Register("Rank", typeof(Ch13CardLib.Rank), typeof(CardControl), new PropertyMetadata(Ch13CardLib.Rank.Ace));
+
+
+
+
+        public bool IsFaceUp
+        {
+            get { return (bool)GetValue(IsFaceUpProperty); }
+            set { SetValue(IsFaceUpProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for MyProperty.  This enables animation, styling, binding, etc...
+        public static  DependencyProperty IsFaceUpProperty =
+            DependencyProperty.Register("IsFaceUp", typeof(bool), typeof(CardControl), new PropertyMetadata(true,
+                new PropertyChangedCallback(OnIsFaceUpChanged)));
+
+        public static void OnSuitChanged(DependencyObject source,DependencyPropertyChangedEventArgs args)
+        {
+            var control = source as CardControl;
+            control.SetTextColor();
+        }
+        private static void OnIsFaceUpChanged(DependencyObject source, DependencyPropertyChangedEventArgs args)
+        {
+            var control = source as CardControl;
+            control.RankLabel.Visibility = control.SuitLabel.Visibility = control.RankLabelInverted.Visibility =
+                control.TopRightImage.Visibility =control.BottomLeftImage.Visibility=
+                 control.IsFaceUp ?
+                Visibility.Visible : Visibility.Hidden;
+
+        }
+        private Ch13CardLib.Card card;
+        public Ch13CardLib.Card Card
+        {
+            get { return card; }
+            private set { card = value;Suit = card.suit;Rank = card.rank; }
+        }
+        public CardControl(Ch13CardLib.Card card)
         {
             InitializeComponent();
+            Card = card;
+        }
+        private void SetTextColor()
+        {
+            var color = (Suit == Ch13CardLib.Suit.Club || Suit == Ch13CardLib.Suit.Spade) ?
+                new SolidColorBrush(Color.FromRgb(0, 0, 0)) :
+                new SolidColorBrush(Color.FromRgb(255, 0, 0));
+            RankLabel.Foreground = SuitLabel.Foreground = RankLabelInverted.Foreground = color;
         }
     }
 }

@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Xml.Serialization;
 using System.Collections.ObjectModel;
-using System.IO;
-using System.Windows.Input;
-using Ch13CardLib;
 
 
-
-namespace KarliCards.Gui
+namespace Ch13CardLib
 {
     [Serializable]
     public class GameOptions
@@ -73,33 +69,14 @@ namespace KarliCards.Gui
             {
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
             }
-        public static RoutedCommand OptionsCommand = new RoutedCommand("Show Options",
-    typeof(GameOptions), new InputGestureCollection(new List<InputGesture> {
-            new KeyGesture(Key.O,ModifierKeys.Control)}));
-
-        public void Save()
-        {
-            using (var stream = File.Open("GameOptions.xml", FileMode.Create))
-            {
-                var serializer = new XmlSerializer(typeof(GameOptions));
-                serializer.Serialize(stream, this);
-            }
-        }
-        public static GameOptions Create()
-        {
-            if (File.Exists("GameOptions.xml"))
-            {
-                using (var stream = File.OpenRead("GameOptions.xml"))
-                {
-                    var serializer = new XmlSerializer(typeof(GameOptions));
-                    return serializer.Deserialize(stream) as GameOptions;
-                }
-            }
-            else
-                return new GameOptions();
-        }
     }
 
-
-
+  
+    [Serializable]
+    public enum ComputerSkillLevel
+    {
+        Dumb,
+        Good,
+        Cheats
+    }
 }

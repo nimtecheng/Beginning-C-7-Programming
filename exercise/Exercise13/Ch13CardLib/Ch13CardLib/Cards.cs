@@ -8,8 +8,10 @@ using System.Collections;
 
 namespace Ch13CardLib
 {
-    public class Cards:CollectionBase,ICloneable
+    public class Cards : List<Card>, ICloneable
+
     {
+        /*原继承collection base
         public void Add(Card newCard) => List.Add(newCard);
         public void Remove(Card oldCard) => List.Remove(oldCard);
         public Card this[int cardIndex]
@@ -17,6 +19,8 @@ namespace Ch13CardLib
             get { return (Card)List[cardIndex]; }
             set { List[cardIndex] = value; }
         }
+          public bool Contains(Card card) => InnerList.Contains(card);
+        */
         public void CopyTo(Cards targetCards)
         {
             for (int index = 0; index < this.Count; index++)
@@ -25,11 +29,11 @@ namespace Ch13CardLib
             }
         }
 
-        public bool Contains(Card card) => InnerList.Contains(card);
+      
         public object Clone()
         {
             Cards newCards = new Cards();
-            foreach (Card sourceCard in List)
+            foreach (Card sourceCard in this)
             {
                 newCards.Add((Card)sourceCard.Clone());
             }

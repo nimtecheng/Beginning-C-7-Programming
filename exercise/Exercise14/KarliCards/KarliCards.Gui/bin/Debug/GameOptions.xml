@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <GameOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SelectedPlayers />
-  <PlayerNames />
+  <SelectedPlayers>
+    <string>stephen</string>
+  </SelectedPlayers>
+  <PlayerNames>
+    <string>stephen</string>
+  </PlayerNames>
   <NumberOfplayers>2</NumberOfplayers>
   <PlayAgainstComputer>true</PlayAgainstComputer>
   <ComputerSkill>Dumb</ComputerSkill>
