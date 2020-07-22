@@ -1,0 +1,14 @@
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\bin\Debug\RouterEvent.exe.config
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\bin\Debug\RouterEvent.exe
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\bin\Debug\RouterEvent.pdb
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\obj\Debug\RouterEvent.csprojAssemblyReference.cache
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\obj\Debug\MainWindow.g.cs
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\obj\Debug\App.g.cs
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\obj\Debug\RouterEvent_MarkupCompile.cache
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\obj\Debug\RouterEvent_MarkupCompile.lref
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\obj\Debug\MainWindow.baml
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\obj\Debug\RouterEvent.g.resources
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\obj\Debug\RouterEvent.Properties.Resources.resources
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\obj\Debug\RouterEvent.csproj.GenerateResource.cache
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\obj\Debug\RouterEvent.exe
+C:\Users\12457\Desktop\c#\test\RouterEvent\RouterEvent\obj\Debug\RouterEvent.pdb

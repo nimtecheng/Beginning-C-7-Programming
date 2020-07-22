@@ -1,0 +1,6 @@
+C:\Users\12457\Desktop\c#\test\Testlambda\Testlambda\obj\Debug\Testlambda.csprojAssemblyReference.cache
+C:\Users\12457\Desktop\c#\test\Testlambda\Testlambda\bin\Debug\Testlambda.exe.config
+C:\Users\12457\Desktop\c#\test\Testlambda\Testlambda\bin\Debug\Testlambda.exe
+C:\Users\12457\Desktop\c#\test\Testlambda\Testlambda\bin\Debug\Testlambda.pdb
+C:\Users\12457\Desktop\c#\test\Testlambda\Testlambda\obj\Debug\Testlambda.exe
+C:\Users\12457\Desktop\c#\test\Testlambda\Testlambda\obj\Debug\Testlambda.pdb

@@ -1,0 +1,14 @@
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\obj\Debug\MainWindow.g.cs
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\obj\Debug\App.g.cs
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\obj\Debug\CustomizeRouteEvent_MarkupCompile.cache
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\obj\Debug\CustomizeRouteEvent_MarkupCompile.lref
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\obj\Debug\CustomizeRouteEvent.exe
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\obj\Debug\CustomizeRouteEvent.pdb
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\bin\Debug\CustomizeRouteEvent.exe.config
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\bin\Debug\CustomizeRouteEvent.exe
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\bin\Debug\CustomizeRouteEvent.pdb
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\obj\Debug\MainWindow.baml
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\obj\Debug\CustomizeRouteEvent.g.resources
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\obj\Debug\CustomizeRouteEvent.Properties.Resources.resources
+C:\Users\12457\Desktop\c#\test\RouterEvent\CustomizeRouteEvent\obj\Debug\CustomizeRouteEvent.csproj.GenerateResource.cache

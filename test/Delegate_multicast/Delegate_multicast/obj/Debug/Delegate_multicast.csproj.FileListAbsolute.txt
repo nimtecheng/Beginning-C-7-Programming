@@ -1,0 +1,6 @@
+C:\Users\12457\Desktop\c#\test\Delegate_multicast\Delegate_multicast\bin\Debug\Delegate_multicast.exe.config
+C:\Users\12457\Desktop\c#\test\Delegate_multicast\Delegate_multicast\bin\Debug\Delegate_multicast.exe
+C:\Users\12457\Desktop\c#\test\Delegate_multicast\Delegate_multicast\bin\Debug\Delegate_multicast.pdb
+C:\Users\12457\Desktop\c#\test\Delegate_multicast\Delegate_multicast\obj\Debug\Delegate_multicast.csprojAssemblyReference.cache
+C:\Users\12457\Desktop\c#\test\Delegate_multicast\Delegate_multicast\obj\Debug\Delegate_multicast.exe
+C:\Users\12457\Desktop\c#\test\Delegate_multicast\Delegate_multicast\obj\Debug\Delegate_multicast.pdb
