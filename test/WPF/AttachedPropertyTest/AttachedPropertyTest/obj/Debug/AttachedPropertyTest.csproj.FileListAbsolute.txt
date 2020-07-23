@@ -1,0 +1,15 @@
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\bin\Debug\AttachedPropertyTest.exe.config
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\bin\Debug\AttachedPropertyTest.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\bin\Debug\AttachedPropertyTest.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\obj\Debug\AttachedPropertyTest.csprojAssemblyReference.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\obj\Debug\MainWindow.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\obj\Debug\App.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\obj\Debug\AttachedPropertyTest_MarkupCompile.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\obj\Debug\AttachedPropertyTest_MarkupCompile.lref
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\obj\Debug\MainWindow.baml
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\obj\Debug\AttachedPropertyTest.g.resources
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\obj\Debug\AttachedPropertyTest.Properties.Resources.resources
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\obj\Debug\AttachedPropertyTest.csproj.GenerateResource.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\obj\Debug\AttachedPropertyTest.csproj.CoreCompileInputs.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\obj\Debug\AttachedPropertyTest.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\AttachedPropertyTest\AttachedPropertyTest\obj\Debug\AttachedPropertyTest.pdb

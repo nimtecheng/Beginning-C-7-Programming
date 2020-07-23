@@ -5,3 +5,10 @@ C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\E
 C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise13\Ch13CardLib\Ch13CardLib\obj\Debug\Ch13CardLib.csproj.CoreCompileInputs.cache
 C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise13\Ch13CardLib\Ch13CardLib\obj\Debug\Ch13CardLib.exe
 C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Exercise\Exercise13\Ch13CardLib\Ch13CardLib\obj\Debug\Ch13CardLib.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise13\Ch13CardLib\Ch13CardLib\obj\Debug\Ch13CardLib.csproj.CoreCompileInputs.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise13\Ch13CardLib\Ch13CardLib\obj\Debug\Ch13CardLib.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise13\Ch13CardLib\Ch13CardLib\obj\Debug\Ch13CardLib.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise13\Ch13CardLib\Ch13CardLib\bin\Debug\Ch13CardLib.exe.config
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise13\Ch13CardLib\Ch13CardLib\bin\Debug\Ch13CardLib.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise13\Ch13CardLib\Ch13CardLib\bin\Debug\Ch13CardLib.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise13\Ch13CardLib\Ch13CardLib\obj\Debug\Ch13CardLib.csprojAssemblyReference.cache

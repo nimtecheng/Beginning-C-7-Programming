@@ -1,0 +1,15 @@
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\bin\Debug\testBinding.exe.config
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\bin\Debug\testBinding.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\bin\Debug\testBinding.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\obj\Debug\testBinding.csprojAssemblyReference.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\obj\Debug\MainWindow.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\obj\Debug\App.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\obj\Debug\testBinding_MarkupCompile.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\obj\Debug\testBinding_MarkupCompile.lref
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\obj\Debug\MainWindow.baml
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\obj\Debug\testBinding.g.resources
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\obj\Debug\testBinding.Properties.Resources.resources
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\obj\Debug\testBinding.csproj.GenerateResource.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\obj\Debug\testBinding.csproj.CoreCompileInputs.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\obj\Debug\testBinding.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\testBinding\testBinding\obj\Debug\testBinding.pdb

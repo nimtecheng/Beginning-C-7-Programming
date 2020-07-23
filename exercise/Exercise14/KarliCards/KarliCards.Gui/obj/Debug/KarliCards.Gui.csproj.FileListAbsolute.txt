@@ -59,3 +59,13 @@ C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\B
 C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\GameClientWindow.g.cs
 C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\ControlResources.baml
 C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\GameClientWindow.baml
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\bin\Debug\Ch13CardLib.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\bin\Debug\Ch13CardLib.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\bin\Debug\Ch13CardLib.exe.config
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\CardControl.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\CardsInHandControl.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\GameDecksControl.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\CardControl.baml
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\CardsInHandControl.baml
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\GameDecksControl.baml
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\Git\Main\Beginning_CSharp7\exercise\Exercise14\KarliCards\KarliCards.Gui\obj\Debug\KarliCards.Gui.csproj.CopyComplete

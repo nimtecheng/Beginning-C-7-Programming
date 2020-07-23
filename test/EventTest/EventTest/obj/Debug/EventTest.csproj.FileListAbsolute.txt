@@ -1,0 +1,7 @@
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\EventTest\EventTest\obj\Debug\EventTest.csprojAssemblyReference.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\EventTest\EventTest\obj\Debug\EventTest.csproj.CoreCompileInputs.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\EventTest\EventTest\bin\Debug\EventTest.exe.config
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\EventTest\EventTest\bin\Debug\EventTest.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\EventTest\EventTest\bin\Debug\EventTest.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\EventTest\EventTest\obj\Debug\EventTest.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\EventTest\EventTest\obj\Debug\EventTest.pdb

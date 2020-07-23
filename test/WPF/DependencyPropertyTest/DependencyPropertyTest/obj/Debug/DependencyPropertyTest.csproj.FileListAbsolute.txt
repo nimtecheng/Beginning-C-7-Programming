@@ -1,0 +1,15 @@
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\bin\Debug\DependencyPropertyTest.exe.config
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\bin\Debug\DependencyPropertyTest.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\bin\Debug\DependencyPropertyTest.pdb
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\obj\Debug\DependencyPropertyTest.csprojAssemblyReference.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\obj\Debug\MainWindow.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\obj\Debug\App.g.cs
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\obj\Debug\DependencyPropertyTest_MarkupCompile.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\obj\Debug\DependencyPropertyTest_MarkupCompile.lref
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\obj\Debug\MainWindow.baml
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\obj\Debug\DependencyPropertyTest.g.resources
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\obj\Debug\DependencyPropertyTest.Properties.Resources.resources
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\obj\Debug\DependencyPropertyTest.csproj.GenerateResource.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\obj\Debug\DependencyPropertyTest.csproj.CoreCompileInputs.cache
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\obj\Debug\DependencyPropertyTest.exe
+C:\Users\wasp\OneDrive - TGW Logistics Group GmbH\Desktop\BeginWithC#\test\WPF\DependencyPropertyTest\DependencyPropertyTest\obj\Debug\DependencyPropertyTest.pdb
