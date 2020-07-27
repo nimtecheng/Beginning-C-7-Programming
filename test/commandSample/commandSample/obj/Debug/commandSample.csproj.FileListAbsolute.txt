@@ -1,0 +1,14 @@
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\bin\Debug\commandSample.exe.config
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\bin\Debug\commandSample.exe
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\bin\Debug\commandSample.pdb
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\obj\Debug\commandSample.csprojAssemblyReference.cache
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\obj\Debug\MainWindow.g.cs
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\obj\Debug\App.g.cs
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\obj\Debug\commandSample_MarkupCompile.cache
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\obj\Debug\commandSample_MarkupCompile.lref
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\obj\Debug\MainWindow.baml
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\obj\Debug\commandSample.g.resources
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\obj\Debug\commandSample.Properties.Resources.resources
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\obj\Debug\commandSample.csproj.GenerateResource.cache
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\obj\Debug\commandSample.exe
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\commandSample\obj\Debug\commandSample.pdb

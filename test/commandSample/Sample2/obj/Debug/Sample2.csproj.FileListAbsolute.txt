@@ -1,0 +1,14 @@
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\bin\Debug\Sample2.exe.config
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\bin\Debug\Sample2.exe
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\bin\Debug\Sample2.pdb
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\obj\Debug\Sample2.csprojAssemblyReference.cache
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\obj\Debug\MainWindow.g.cs
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\obj\Debug\App.g.cs
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\obj\Debug\Sample2_MarkupCompile.cache
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\obj\Debug\Sample2_MarkupCompile.lref
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\obj\Debug\MainWindow.baml
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\obj\Debug\Sample2.g.resources
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\obj\Debug\Sample2.Properties.Resources.resources
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\obj\Debug\Sample2.csproj.GenerateResource.cache
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\obj\Debug\Sample2.exe
+C:\Users\12457\Desktop\c#\Beginning-C-7-Programming\test\commandSample\Sample2\obj\Debug\Sample2.pdb
